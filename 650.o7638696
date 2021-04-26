@@ -1,0 +1,187 @@
+
+# in utilities.simulation.Snapshot():
+* reading:  scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/snapshot_times.txt
+
+  using snapshot index = 646, redshift = 0.004
+
+
+# in gizmo_analysis.gizmo_io.Read():
+* reading header from:  scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/output/snapshot_646.hdf5
+  snapshot contains the following number of particles:
+    dark      (id = 1): 563938344 particles
+    dark2     (id = 2): 14665907 particles
+    gas       (id = 0): 462013321 particles
+    star      (id = 4): 112580711 particles
+    blackhole (id = 5): 0 particles
+
+* reading species: ['dark', 'dark2', 'gas', 'star']
+* reading particles from:
+    scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/output/snapshot_646.hdf5
+
+* reading cosmological parameters from:  scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/initial_condition/ic_agora_m12i.conf
+
+* checking sanity of particle properties
+! warning: gas id.child [min, max] = [0.000, 4.295e9]
+! warning: gas mass [min, med, max] = [883.410, 883.410, 11585.855]
+! warning: star id.child [min, max] = [0.000, 4.295e9]
+! warning: star mass [min, med, max] = [279.811, 652.289, 1.100e5]
+
+
+# in gizmo_analysis.gizmo_track.ParticleCoordinate():
+  read 1 host (position, velocity, rotation, axis ratios) from:  scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/track/host_coordinates.hdf5
+  host1 position = (41776.453, 44108.047, 46264.406) [kpc comoving]
+  host1 velocity = (-53.5, 74.5, 95.8) [km / s]
+  host1 axis ratios = (0.25, 0.26, 0.96)
+
+
+ Stored the gas data for background plot from the snapshot no. 646 to filename: fire2_gas_data646.pkl 
+#####
+
+
+# in utilities.simulation.Snapshot():
+* reading:  scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/snapshot_times.txt
+
+  using snapshot index = 647, redshift = 0.004
+
+
+# in gizmo_analysis.gizmo_io.Read():
+* reading header from:  scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/output/snapshot_647.hdf5
+  snapshot contains the following number of particles:
+    dark      (id = 1): 563938344 particles
+    dark2     (id = 2): 14665907 particles
+    gas       (id = 0): 462011218 particles
+    star      (id = 4): 112583633 particles
+    blackhole (id = 5): 0 particles
+
+* reading species: ['dark', 'dark2', 'gas', 'star']
+* reading particles from:
+    scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/output/snapshot_647.hdf5
+
+* reading cosmological parameters from:  scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/initial_condition/ic_agora_m12i.conf
+
+* checking sanity of particle properties
+! warning: gas id.child [min, max] = [0.000, 4.295e9]
+! warning: gas mass [min, med, max] = [883.410, 883.410, 14258.165]
+! warning: star id.child [min, max] = [0.000, 4.295e9]
+! warning: star mass [min, med, max] = [279.811, 652.287, 1.100e5]
+
+  read 1 host (position, velocity, rotation, axis ratios) from:  scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/track/host_coordinates.hdf5
+  host1 position = (41776.402, 44108.121, 46264.508) [kpc comoving]
+  host1 velocity = (-53.4, 74.3, 95.7) [km / s]
+  host1 axis ratios = (0.25, 0.26, 0.96)
+
+
+ Stored the gas data for background plot from the snapshot no. 647 to filename: fire2_gas_data647.pkl 
+#####
+
+
+# in utilities.simulation.Snapshot():
+* reading:  scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/snapshot_times.txt
+
+  using snapshot index = 648, redshift = 0.003
+
+
+# in gizmo_analysis.gizmo_io.Read():
+* reading header from:  scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/output/snapshot_648.hdf5
+  snapshot contains the following number of particles:
+    dark      (id = 1): 563938344 particles
+    dark2     (id = 2): 14665907 particles
+    gas       (id = 0): 462009623 particles
+    star      (id = 4): 112586031 particles
+    blackhole (id = 5): 0 particles
+
+* reading species: ['dark', 'dark2', 'gas', 'star']
+* reading particles from:
+    scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/output/snapshot_648.hdf5
+
+* reading cosmological parameters from:  scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/initial_condition/ic_agora_m12i.conf
+
+* checking sanity of particle properties
+! warning: gas id.child [min, max] = [0.000, 4.295e9]
+! warning: gas mass [min, med, max] = [883.410, 883.410, 35000.879]
+! warning: star id.child [min, max] = [0.000, 4.295e9]
+! warning: star mass [min, med, max] = [279.811, 652.284, 1.100e5]
+
+  read 1 host (position, velocity, rotation, axis ratios) from:  scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/track/host_coordinates.hdf5
+  host1 position = (41776.352, 44108.191, 46264.609) [kpc comoving]
+  host1 velocity = (-53.4, 74.2, 95.7) [km / s]
+  host1 axis ratios = (0.25, 0.26, 0.95)
+
+
+ Stored the gas data for background plot from the snapshot no. 648 to filename: fire2_gas_data648.pkl 
+#####
+
+
+# in utilities.simulation.Snapshot():
+* reading:  scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/snapshot_times.txt
+
+  using snapshot index = 649, redshift = 0.003
+
+
+# in gizmo_analysis.gizmo_io.Read():
+* reading header from:  scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/output/snapshot_649.hdf5
+  snapshot contains the following number of particles:
+    dark      (id = 1): 563938344 particles
+    dark2     (id = 2): 14665907 particles
+    gas       (id = 0): 462007602 particles
+    star      (id = 4): 112588821 particles
+    blackhole (id = 5): 0 particles
+
+* reading species: ['dark', 'dark2', 'gas', 'star']
+* reading particles from:
+    scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/output/snapshot_649.hdf5
+
+* reading cosmological parameters from:  scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/initial_condition/ic_agora_m12i.conf
+
+* checking sanity of particle properties
+! warning: gas id.child [min, max] = [0.000, 4.295e9]
+! warning: gas mass [min, med, max] = [883.410, 883.410, 25129.941]
+! warning: star id.child [min, max] = [0.000, 4.295e9]
+! warning: star mass [min, med, max] = [279.811, 652.282, 1.100e5]
+
+  read 1 host (position, velocity, rotation, axis ratios) from:  scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/track/host_coordinates.hdf5
+  host1 position = (41776.297, 44108.266, 46264.703) [kpc comoving]
+  host1 velocity = (-53.3, 74.0, 95.7) [km / s]
+  host1 axis ratios = (0.25, 0.26, 0.95)
+
+
+ Stored the gas data for background plot from the snapshot no. 649 to filename: fire2_gas_data649.pkl 
+#####
+
+
+# in utilities.simulation.Snapshot():
+* reading:  scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/snapshot_times.txt
+
+  using snapshot index = 650, redshift = 0.003
+
+
+# in gizmo_analysis.gizmo_io.Read():
+* reading header from:  scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/output/snapshot_650.hdf5
+  snapshot contains the following number of particles:
+    dark      (id = 1): 563938344 particles
+    dark2     (id = 2): 14665907 particles
+    gas       (id = 0): 462005736 particles
+    star      (id = 4): 112591475 particles
+    blackhole (id = 5): 0 particles
+
+* reading species: ['dark', 'dark2', 'gas', 'star']
+* reading particles from:
+    scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/output/snapshot_650.hdf5
+
+* reading cosmological parameters from:  scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/initial_condition/ic_agora_m12i.conf
+
+* checking sanity of particle properties
+! warning: gas id.child [min, max] = [0.000, 4.295e9]
+! warning: gas mass [min, med, max] = [883.410, 883.410, 20835.883]
+! warning: star id.child [min, max] = [0.000, 4.295e9]
+! warning: star mass [min, med, max] = [279.811, 652.279, 1.100e5]
+
+  read 1 host (position, velocity, rotation, axis ratios) from:  scratch/projects/xsede/GalaxiesOnFIRE/metal_diffusion/m12i_res880/1Myr/track/host_coordinates.hdf5
+  host1 position = (41776.242, 44108.336, 46264.805) [kpc comoving]
+  host1 velocity = (-53.3, 73.8, 95.6) [km / s]
+  host1 axis ratios = (0.25, 0.26, 0.95)
+
+
+ Stored the gas data for background plot from the snapshot no. 650 to filename: fire2_gas_data650.pkl 
+#####
+
