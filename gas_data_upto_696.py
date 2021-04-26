@@ -29,8 +29,8 @@ if not os.path.exists(gas_datapath):
   os.makedirs(gas_datapath)
                 
 #snap=650 #this is the snapshot at which the clusters were taken from using the fof algorithm I am using this to extract information from the snapshot where the clusters were first seen
-snapshot_start=686  #snapshot to begin creating the figure
-snapshot_end=690    #snapshot to stop at
+snapshot_start=691  #snapshot to begin creating the figure
+snapshot_end=696    #snapshot to stop at
 
 snapshot_list=np.arange(snapshot_start,snapshot_end+1) #create a list of snapshot numbers to plot to plot eg. [596,597, ...]
 time=snapshot_list-snapshot_start #time starts from zero here where t=0 is at the snapshot where we start from eg. [0,1,2,3,....]
